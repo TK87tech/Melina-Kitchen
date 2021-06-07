@@ -1,0 +1,197 @@
+/* Master styles */
+body {
+    margin: 0px;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+/* Nav styles */
+.navigator {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    background-color: khaki;
+}
+
+.left-side {
+    display: flex;
+}
+
+.right-side {
+    display: flex;
+    font-size: smaller;
+    font-weight: 300; font-family: monospace; font-size: 15px;
+    
+}
+
+
+
+.navigator > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 1s;
+}
+
+.nav-link-wrapper a {
+    color: grey;
+    text-decoration: none;
+    transition: color 0.5s;
+    
+}
+
+.nav-link-wrapper :hover {
+border-bottom: 1px solid black; 
+}
+
+.nav-link-wrapper a:hover {
+color: orange; ;
+
+}
+/* Portfolio Styles*/
+
+
+
+.food-images {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.food-image {
+    position: relative;
+    background-size: cover;
+    display: grid;
+    position: relative;
+    background-size: cover;
+}
+
+.food-background-image {
+    height: 350px; 
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.img-text-wrapper {
+
+    position: absolute;
+    
+    right: 2px;
+    left: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    transition: 1s;
+}
+
+.logo-wrapper img {
+
+    width: 50%;
+    margin: 0;
+    opacity: 0;
+    padding: 0;
+    transition: 1s;
+    
+  
+}
+
+.logo-wrapper :hover {
+    opacity: 1;   
+}
+
+
+
+
+.img-text-wrapper .subtitle {
+    transition: 0.5s;
+    color: transparent;
+    font-weight: 600;
+
+}
+
+
+.img-text-wrapper:hover .subtitle {
+    font-weight: 600;
+    font-family: monospace;
+    color:khaki;
+    font-size: 25px;
+    
+    
+}
+
+.img-whiten {
+    transition: 1s;
+    filter: brightness(10%);
+      
+}
+
+/* About page */
+
+.about-content-wrapper {
+    margin: 0;
+    padding: 0;
+    background-color: lemonchiffon;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: block;
+    
+}
+
+.about-image-wrapper img {
+   height: 50%;
+   width: 400px;
+}
+
+.about-content-wrapper .about-write-up{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: x-large;
+    font-family: monospace;
+    font-style: normal;
+}
+
+.about-write-up h1 {
+    color: tomato;
+}
+
+nav {
+position: absolute;
+padding: 5px;
+height: 50px;
+width: 50px;
+
+}
+
+nav #icon {
+    color: black;
+    height: 50px;
+    width: 50px;
+}
+ .navbar-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+

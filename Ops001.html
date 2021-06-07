@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+        <title>Melina Kitchen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navigator">
+            
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+                    <a href="Ops001.html">Home</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <a href="About.html">About</a>
+                </div>
+
+            </div>
+           
+            <div class="right-side">
+                <div class="brand">
+                    <div>MELINA RESORT AND LOUNGE</div>
+                </div>
+
+                <div class="melina-brand"></div>
+                    <img src="images/coffee-logo-transparent-image.png" alt="" height="50px" width="50px">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="images-content-wrapper">
+            
+            <div class="food-images">
+
+                <div class="food-image">
+                    <div class="food-background-image" style="background-image: url(food1.jpg);"></div> 
+
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/fast food cooking_4103415.png" >
+                        </div>
+                            
+                        <div class="subtitle">Eat Healthy, because food is life!</div>
+                            
+                        
+                    </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+                        
+                    
+                    
+                </div>
+
+                <div class="food-image">
+                    <div class="food-background-image" style="background-image: url(images/brooke-lark-HlNcigvUi4Q-unsplash.jpg);"></div>
+                        
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/organic product food label_5084830.png" >
+                            
+                        </div>
+
+                        <div class="subtitle"> Everyday is a new day for you to eat healthy!</div>
+                    </div>    
+                    
+                        
+                    
+                    
+                </div>           
+
+                <div class="food-image">
+
+                    <div class="food-background-image" style="background-image: url(images/cala-w6ftFbPCs9I-unsplash.jpg);"></div>
+                        
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/tea-png-image.png" >
+                        </div>
+
+                        <div class="subtitle">Uhmmm Tastes Yummy!</div>
+                    </div>
+                    
+                        
+                </div>            
+                
+
+                <div class="food-image">
+                    <div class="food-background-image" style="background-image: url(lily-banse--YHSwy6uqvk-unsplash.jpg);"></div>
+                       
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/chicken chef character_5003581.png" alt="logo" >
+
+                            
+                        </div>
+                        
+                        <div class="subtitle">Bomb me with food!</div>
+                        
+                    </div>
+
+                    
+                   
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</a>
+</body>
+
+<script>
+    
+        const foodImageItems = document.querySelectorAll('.food-image')
+        foodImageItems.forEach(foodImage => {
+            foodImage.addEventListener('mouseover', () => {   
+                foodImage.childNodes[1].classList.add('img-whiten');
+
+            })
+
+            foodImage.addEventListener('mouseout', () => {   
+                foodImage.childNodes[1].classList.remove('img-whiten');
+
+            })
+        })
+</script>
+
+</html>
