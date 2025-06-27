@@ -30,9 +30,7 @@ This project is a full front-end restaurant website designed to:
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-- *(Optional if used: Bootstrap, Tailwind CSS, jQuery, React, etc.)*
 
----
 
 
 
